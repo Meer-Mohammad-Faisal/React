@@ -1,6 +1,6 @@
 import './App.css';
 // imports
- import Title from "./Title.jsx";
+
 //import { Title } from "./Title.jsx";
 import ProductTab  from "./ProductTab.jsx";
 
@@ -14,6 +14,7 @@ function App() {
   // if we want to create multiple then we should use div
   return (
       <>
+       <h2>Blockbuster Deals | shop now</h2>
       <ProductTab />
     </>
   );

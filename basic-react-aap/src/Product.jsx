@@ -1,18 +1,19 @@
 import "./Product.css";
+import Price from "./Price";
 
-function Product({ title, price, features}) {
-       
+function Product({ title, idx}) {
+    let OldPrice = ["12,495", "11,900", "1,599", "599"];
+    let NewPrice = ["8,999", "9,199", "899", "278"];
+    let description = [["8,000 DPI","5 programmable buttons"], ["intuitive surface","design for iPad Pro "], ["designed for iPad pro", "intuitive surface"], ["wireless", "optical orientation"]];
         return (
         <div className="Product">
-            <h3>{title}</h3>
-            <h5>Price : {price}</h5>
-            <p>{ price > 30000 && <p>"Discount of 5%"</p> }</p>
+            <h4>{title}</h4>
+            <p>{description[idx][0]}</p>
+            <p>{description[idx][1]}</p>
+            <Price OldPrice={OldPrice[idx]} NewPrice={NewPrice[idx]}/>
         </div>
         );
-   
 }
-
-
 
 
 export default Product;
