@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <Button handleClick = {handleClick} text="Click me">
+      <Button incrementCount = {handleClick} text="Click me">
         <h1>{count}</h1>
         </Button>
 

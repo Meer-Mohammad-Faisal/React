@@ -4,9 +4,9 @@ const Button = (props) => {
   return (
     <div>
         {props.children}
-        <button onClick={props.handleClick}>
-        {props.text}
-    </button>
+        <button onClick={props.incrementCount}>
+          {props.text}
+        </button>
     </div>
     
   )
