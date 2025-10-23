@@ -1,9 +1,9 @@
 
 import './App.css'
 import UserCard from './components/UserCard'
-import fasial_image from './assets/me_hair.jpg';
-import model_two from './assets/Model-2.jpeg';
-import model_three from './assets/Model-3.jpeg';
+import fasial_image from "./assets/me.jpg";
+import model_two from "./assets/model_one.jpeg";
+import model_three from "./assets/model_two.jpeg";
 
 function App() {
   

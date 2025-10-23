@@ -1,5 +1,5 @@
 import React from 'react'
-import faisal_image from '../assets/me_hair.jpg'
+// import faisal_image from '../assets/me_hair.jpg'
 import './UserCard.css';
 
 const UserCard = (props) => {
@@ -14,3 +14,4 @@ const UserCard = (props) => {
 } 
 
 export default UserCard
+ 
