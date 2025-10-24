@@ -6,6 +6,7 @@ import LoggerComponent from './component/LoggerComponent'
 import TimerComponent from './component/TimerComponent'
 import DataFetcher from './component/DataFetcher'
 import ResizeComponent from './component/ResizeComponent'
+import MultiEffectComponents from './component/MultiEffectComponents'
 
 
 function App() {
@@ -65,7 +66,11 @@ function App() {
 
   return (
     <>
-    <ResizeComponent />
+
+    {/* <LoggerComponent /> */}
+    <MultiEffectComponents />
+
+
   {/* <DataFetcher /> */}
     {/* <LoggerComponent />  */}
     {/* <TimerComponent /> */}
