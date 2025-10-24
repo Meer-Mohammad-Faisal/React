@@ -4,11 +4,12 @@ import ChildA from './components/ChildA'
 
 // step 1: create context
  const UserContext = createContext();
+
+ const ThemeContext = createContext();
+
 // step 2: wrap the component tree with context provider
 // step 3: pass value 
-
-
-const ThemeContext = createContext();
+// step 4: consumer ke andar jake consume krlo...
 
 function App() {
   const [user, setUser] = useState({name: "faisal"});

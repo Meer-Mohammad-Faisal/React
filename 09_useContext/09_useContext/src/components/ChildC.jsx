@@ -8,7 +8,7 @@ const ChildC = () => {
 
     function handleClick() {
         if(theme === "light") {
-            setTheme("dark");
+          setTheme("dark");
         }
         else {
             setTheme("light");
@@ -16,6 +16,7 @@ const ChildC = () => {
     }
   return (
     <div>
+      
       <button onClick={handleClick}>
         Change Theme
       </button>
